@@ -1,0 +1,7 @@
+# Matches praxis_labs_ue1/requirements.txt
+openai
+numpy
+matplotlib
+seaborn
+tqdm
+tiktoken

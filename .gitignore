@@ -1,0 +1,19 @@
+# API keys
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+*.swp
+
+# Sprint data (provided by Praxis — should not be redistributed)
+data/*.json
+
+# Editor
+.idea/
+.vscode/

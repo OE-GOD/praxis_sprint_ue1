@@ -1,0 +1,767 @@
+{
+  "originals": [
+    {
+      "i": 0,
+      "question": "Who won the 2024 US presidential election?",
+      "claim": "Donald Trump won the 2024 US presidential election.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 1,
+      "question": "Who won the 2024 US presidential election?",
+      "claim": "Kamala Harris won the 2024 US presidential election.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 2,
+      "question": "Who became the UK Prime Minister in July 2024?",
+      "claim": "Keir Starmer became the UK Prime Minister in July 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 3,
+      "question": "Who became the UK Prime Minister in July 2024?",
+      "claim": "Rishi Sunak became the UK Prime Minister in July 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 4,
+      "question": "Where were the 2024 Summer Olympics held?",
+      "claim": "The 2024 Summer Olympics were held in Paris.",
+      "gold": "True",
+      "pred": "True",
+      "correct": true
+    },
+    {
+      "i": 5,
+      "question": "Where were the 2024 Summer Olympics held?",
+      "claim": "The 2024 Summer Olympics were held in Los Angeles.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 6,
+      "question": "Who was inaugurated as US President in January 2025?",
+      "claim": "Donald Trump was inaugurated as US President in January 2025.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 7,
+      "question": "Who was inaugurated as US President in January 2025?",
+      "claim": "Joe Biden was inaugurated as US President in January 2025.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 8,
+      "question": "When was OpenAI's o1 model first released?",
+      "claim": "OpenAI's o1 model was first released in September 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 9,
+      "question": "When was OpenAI's o1 model first released?",
+      "claim": "OpenAI's o1 model was first released in 2023.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 10,
+      "question": "Which company released Claude 3.5 Sonnet in 2024?",
+      "claim": "Anthropic released Claude 3.5 Sonnet in 2024.",
+      "gold": "True",
+      "pred": "True",
+      "correct": true
+    },
+    {
+      "i": 11,
+      "question": "Which company released Claude 3.5 Sonnet in 2024?",
+      "claim": "OpenAI released Claude 3.5 Sonnet in 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 12,
+      "question": "Who won the 2024 NBA Finals?",
+      "claim": "The Boston Celtics won the 2024 NBA Finals.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 13,
+      "question": "Who won the 2024 NBA Finals?",
+      "claim": "The Dallas Mavericks won the 2024 NBA Finals.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 14,
+      "question": "Who won the 2024 UEFA European Championship?",
+      "claim": "Spain won the 2024 UEFA European Championship.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 15,
+      "question": "Who won the 2024 UEFA European Championship?",
+      "claim": "England won the 2024 UEFA European Championship.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 16,
+      "question": "Which spacecraft caught a returning rocket booster with chopstick arms in October 2024?",
+      "claim": "SpaceX's Mechazilla tower caught the Super Heavy booster with chopstick arms in October 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 17,
+      "question": "Which spacecraft caught a returning rocket booster with chopstick arms in October 2024?",
+      "claim": "Blue Origin's New Glenn caught a returning booster with chopstick arms in October 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 18,
+      "question": "Which major hurricane struck Florida's Gulf Coast in late September 2024?",
+      "claim": "Hurricane Helene struck Florida's Gulf Coast in late September 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 19,
+      "question": "Which major hurricane struck Florida's Gulf Coast in late September 2024?",
+      "claim": "Hurricane Katrina struck Florida's Gulf Coast in late September 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 20,
+      "question": "Which film won the 2024 Academy Award for Best Picture?",
+      "claim": "Oppenheimer won the 2024 Academy Award for Best Picture.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 21,
+      "question": "Which film won the 2024 Academy Award for Best Picture?",
+      "claim": "Barbie won the 2024 Academy Award for Best Picture.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 22,
+      "question": "Who won the 2024 Nobel Prize in Physics?",
+      "claim": "The 2024 Nobel Prize in Physics was awarded to John Hopfield and Geoffrey Hinton.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 23,
+      "question": "Who won the 2024 Nobel Prize in Physics?",
+      "claim": "The 2024 Nobel Prize in Physics was awarded to Roger Penrose alone.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 24,
+      "question": "Which billionaire purchased X (formerly Twitter)?",
+      "claim": "Elon Musk purchased X (formerly Twitter) in 2022.",
+      "gold": "True",
+      "pred": "True",
+      "correct": true
+    },
+    {
+      "i": 25,
+      "question": "Which billionaire purchased X (formerly Twitter)?",
+      "claim": "Mark Zuckerberg purchased X (formerly Twitter) in 2022.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 26,
+      "question": "Which AI lab released DeepSeek-V3 in late 2024?",
+      "claim": "DeepSeek released DeepSeek-V3 in late 2024.",
+      "gold": "True",
+      "pred": "True",
+      "correct": true
+    },
+    {
+      "i": 27,
+      "question": "Which AI lab released DeepSeek-V3 in late 2024?",
+      "claim": "Meta released DeepSeek-V3 in late 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    },
+    {
+      "i": 28,
+      "question": "What was the result of Argentina vs Colombia in the 2024 Copa America final?",
+      "claim": "Argentina won the 2024 Copa America final.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false
+    },
+    {
+      "i": 29,
+      "question": "What was the result of Argentina vs Colombia in the 2024 Copa America final?",
+      "claim": "Colombia won the 2024 Copa America final.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true
+    }
+  ],
+  "paraphrased": [
+    {
+      "i": 0,
+      "original_question": "Who won the 2024 US presidential election?",
+      "original_claim": "Donald Trump won the 2024 US presidential election.",
+      "paraphrased_question": "Which candidate emerged victorious in the United States presidential election of 2024?",
+      "paraphrased_claim": "The 2024 presidential election in the United States was won by Donald Trump.",
+      "label": 1
+    },
+    {
+      "i": 1,
+      "original_question": "Who won the 2024 US presidential election?",
+      "original_claim": "Kamala Harris won the 2024 US presidential election.",
+      "paraphrased_question": "Which individual emerged victorious in the presidential contest held in the United States in 2024?",
+      "paraphrased_claim": "The 2024 presidential election in the United States was won by Kamala Harris.",
+      "label": 0
+    },
+    {
+      "i": 2,
+      "original_question": "Who became the UK Prime Minister in July 2024?",
+      "original_claim": "Keir Starmer became the UK Prime Minister in July 2024.",
+      "paraphrased_question": "Which individual assumed the office of Prime Minister of the United Kingdom during the month of July in the year 2024?",
+      "paraphrased_claim": "It was Keir Starmer who took on the role of UK Prime Minister as of July 2024.",
+      "label": 1
+    },
+    {
+      "i": 3,
+      "original_question": "Who became the UK Prime Minister in July 2024?",
+      "original_claim": "Rishi Sunak became the UK Prime Minister in July 2024.",
+      "paraphrased_question": "Which individual assumed the office of Prime Minister of the United Kingdom during the month of July in the year 2024?",
+      "paraphrased_claim": "It was Rishi Sunak who took on the role of Prime Minister of the UK in July 2024.",
+      "label": 0
+    },
+    {
+      "i": 4,
+      "original_question": "Where were the 2024 Summer Olympics held?",
+      "original_claim": "The 2024 Summer Olympics were held in Paris.",
+      "paraphrased_question": "In which city did the 2024 Summer Olympics take place?",
+      "paraphrased_claim": "Paris was the host city of the 2024 Summer Olympics.",
+      "label": 1
+    },
+    {
+      "i": 5,
+      "original_question": "Where were the 2024 Summer Olympics held?",
+      "original_claim": "The 2024 Summer Olympics were held in Los Angeles.",
+      "paraphrased_question": "In which city did the 2024 Summer Olympics take place?",
+      "paraphrased_claim": "Los Angeles was the host city for the 2024 Summer Olympics.",
+      "label": 0
+    },
+    {
+      "i": 6,
+      "original_question": "Who was inaugurated as US President in January 2025?",
+      "original_claim": "Donald Trump was inaugurated as US President in January 2025.",
+      "paraphrased_question": "Which individual took office as the President of the United States in the month of January in the year 2025?",
+      "paraphrased_claim": "It was Donald Trump who assumed the presidency of the United States during the inauguration that occurred in January 2025.",
+      "label": 1
+    },
+    {
+      "i": 7,
+      "original_question": "Who was inaugurated as US President in January 2025?",
+      "original_claim": "Joe Biden was inaugurated as US President in January 2025.",
+      "paraphrased_question": "Which individual took office as the President of the United States in the month of January 2025?",
+      "paraphrased_claim": "It was Joe Biden who assumed the presidency of the United States in January 2025.",
+      "label": 0
+    },
+    {
+      "i": 8,
+      "original_question": "When was OpenAI's o1 model first released?",
+      "original_claim": "OpenAI's o1 model was first released in September 2024.",
+      "paraphrased_question": "At what point in time did OpenAI initially unveil its o1 model?",
+      "paraphrased_claim": "The initial release of OpenAI's o1 model occurred during the month of September in the year 2024.",
+      "label": 1
+    },
+    {
+      "i": 9,
+      "original_question": "When was OpenAI's o1 model first released?",
+      "original_claim": "OpenAI's o1 model was first released in 2023.",
+      "paraphrased_question": "What year did OpenAI initially launch its o1 model?",
+      "paraphrased_claim": "The initial release of OpenAI's o1 model occurred during the year 2023.",
+      "label": 0
+    },
+    {
+      "i": 10,
+      "original_question": "Which company released Claude 3.5 Sonnet in 2024?",
+      "original_claim": "Anthropic released Claude 3.5 Sonnet in 2024.",
+      "paraphrased_question": "What was the name of the company that launched the Claude 3.5 Sonnet model in the year 2024?",
+      "paraphrased_claim": "It was Anthropic that introduced the Claude 3.5 Sonnet in 2024.",
+      "label": 1
+    },
+    {
+      "i": 11,
+      "original_question": "Which company released Claude 3.5 Sonnet in 2024?",
+      "original_claim": "OpenAI released Claude 3.5 Sonnet in 2024.",
+      "paraphrased_question": "What organization was responsible for launching the Claude 3.5 Sonnet product in the year 2024?",
+      "paraphrased_claim": "It was OpenAI that introduced Claude 3.5 Sonnet to the market in 2024.",
+      "label": 0
+    },
+    {
+      "i": 12,
+      "original_question": "Who won the 2024 NBA Finals?",
+      "original_claim": "The Boston Celtics won the 2024 NBA Finals.",
+      "paraphrased_question": "Which team emerged victorious in the National Basketball Association championship series for the year 2024?",
+      "paraphrased_claim": "The championship title for the 2024 NBA Finals was secured by the Boston Celtics.",
+      "label": 1
+    },
+    {
+      "i": 13,
+      "original_question": "Who won the 2024 NBA Finals?",
+      "original_claim": "The Dallas Mavericks won the 2024 NBA Finals.",
+      "paraphrased_question": "Which team emerged victorious in the National Basketball Association championship series for the year 2024?",
+      "paraphrased_claim": "The championship title for the 2024 NBA Finals was secured by the Dallas Mavericks.",
+      "label": 0
+    },
+    {
+      "i": 14,
+      "original_question": "Who won the 2024 UEFA European Championship?",
+      "original_claim": "Spain won the 2024 UEFA European Championship.",
+      "paraphrased_question": "Which country emerged victorious in the 2024 UEFA European Championship tournament?",
+      "paraphrased_claim": "The winner of the 2024 UEFA European Championship title was Spain.",
+      "label": 1
+    },
+    {
+      "i": 15,
+      "original_question": "Who won the 2024 UEFA European Championship?",
+      "original_claim": "England won the 2024 UEFA European Championship.",
+      "paraphrased_question": "Which country emerged victorious in the 2024 UEFA European Championship tournament?",
+      "paraphrased_claim": "The 2024 UEFA European Championship title was secured by England.",
+      "label": 0
+    },
+    {
+      "i": 16,
+      "original_question": "Which spacecraft caught a returning rocket booster with chopstick arms in October 2024?",
+      "original_claim": "SpaceX's Mechazilla tower caught the Super Heavy booster with chopstick arms in October 2024.",
+      "paraphrased_question": "In October 2024, what space vehicle utilized mechanical arms resembling chopsticks to capture a descending rocket booster?",
+      "paraphrased_claim": "The Mechazilla tower, owned by SpaceX, successfully retrieved a Super Heavy booster using its chopstick-like appendages in October 2024.",
+      "label": 1
+    },
+    {
+      "i": 17,
+      "original_question": "Which spacecraft caught a returning rocket booster with chopstick arms in October 2024?",
+      "original_claim": "Blue Origin's New Glenn caught a returning booster with chopstick arms in October 2024.",
+      "paraphrased_question": "In October 2024, what space vehicle utilized mechanical arms resembling chopsticks to capture a descending rocket stage?",
+      "paraphrased_claim": "The New Glenn spacecraft, developed by Blue Origin, successfully retrieved a returning rocket booster using its chopstick-like appendages in October 2024.",
+      "label": 0
+    },
+    {
+      "i": 18,
+      "original_question": "Which major hurricane struck Florida's Gulf Coast in late September 2024?",
+      "original_claim": "Hurricane Helene struck Florida's Gulf Coast in late September 2024.",
+      "paraphrased_question": "What significant tropical cyclone made landfall on the western coast of Florida towards the end of September 2024?",
+      "paraphrased_claim": "The Gulf Coast of Florida was hit by Hurricane Helene during the latter part of September 2024.",
+      "label": 1
+    },
+    {
+      "i": 19,
+      "original_question": "Which major hurricane struck Florida's Gulf Coast in late September 2024?",
+      "original_claim": "Hurricane Katrina struck Florida's Gulf Coast in late September 2024.",
+      "paraphrased_question": "What significant tropical cyclone made landfall on the western coast of Florida towards the end of September 2024?",
+      "paraphrased_claim": "The storm known as Hurricane Katrina made a Gulf Coast landfall in Florida during the latter part of September 2024.",
+      "label": 0
+    },
+    {
+      "i": 20,
+      "original_question": "Which film won the 2024 Academy Award for Best Picture?",
+      "original_claim": "Oppenheimer won the 2024 Academy Award for Best Picture.",
+      "paraphrased_question": "What movie received the top honor for Best Picture at the 2024 Oscars?",
+      "paraphrased_claim": "The movie Oppenheimer took home the award for Best Picture at the 2024 Academy Awards.",
+      "label": 1
+    },
+    {
+      "i": 21,
+      "original_question": "Which film won the 2024 Academy Award for Best Picture?",
+      "original_claim": "Barbie won the 2024 Academy Award for Best Picture.",
+      "paraphrased_question": "What movie received the top honor in the Best Picture category at the 2024 Oscars?",
+      "paraphrased_claim": "The 2024 Academy Award for Best Picture was awarded to the film Barbie.",
+      "label": 0
+    },
+    {
+      "i": 22,
+      "original_question": "Who won the 2024 Nobel Prize in Physics?",
+      "original_claim": "The 2024 Nobel Prize in Physics was awarded to John Hopfield and Geoffrey Hinton.",
+      "paraphrased_question": "Which individual or individuals received the Nobel Prize in Physics for the year 2024?",
+      "paraphrased_claim": "The recipients of the 2024 Nobel Prize in Physics were John Hopfield and Geoffrey Hinton.",
+      "label": 1
+    },
+    {
+      "i": 23,
+      "original_question": "Who won the 2024 Nobel Prize in Physics?",
+      "original_claim": "The 2024 Nobel Prize in Physics was awarded to Roger Penrose alone.",
+      "paraphrased_question": "Which individual or individuals received the Nobel Prize in Physics for the year 2024?",
+      "paraphrased_claim": "Roger Penrose was the sole recipient of the 2024 Nobel Prize in Physics.",
+      "label": 0
+    },
+    {
+      "i": 24,
+      "original_question": "Which billionaire purchased X (formerly Twitter)?",
+      "original_claim": "Elon Musk purchased X (formerly Twitter) in 2022.",
+      "paraphrased_question": "Who was the billionaire buyer of the social media platform previously known as Twitter?",
+      "paraphrased_claim": "In the year 2022, X, which was formerly named Twitter, was acquired by Elon Musk.",
+      "label": 1
+    },
+    {
+      "i": 25,
+      "original_question": "Which billionaire purchased X (formerly Twitter)?",
+      "original_claim": "Mark Zuckerberg purchased X (formerly Twitter) in 2022.",
+      "paraphrased_question": "Who was the billionaire buyer of the social media platform previously known as Twitter?",
+      "paraphrased_claim": "In the year 2022, the ownership of X, which was formerly named Twitter, was acquired by Mark Zuckerberg.",
+      "label": 0
+    },
+    {
+      "i": 26,
+      "original_question": "Which AI lab released DeepSeek-V3 in late 2024?",
+      "original_claim": "DeepSeek released DeepSeek-V3 in late 2024.",
+      "paraphrased_question": "What research laboratory was responsible for the launch of DeepSeek-V3 towards the end of 2024?",
+      "paraphrased_claim": "It was DeepSeek that introduced its DeepSeek-V3 model in the latter part of 2024.",
+      "label": 1
+    },
+    {
+      "i": 27,
+      "original_question": "Which AI lab released DeepSeek-V3 in late 2024?",
+      "original_claim": "Meta released DeepSeek-V3 in late 2024.",
+      "paraphrased_question": "What research institution was responsible for launching the DeepSeek-V3 model towards the end of 2024?",
+      "paraphrased_claim": "The company Meta was the one that introduced DeepSeek-V3 to the public in late 2024.",
+      "label": 0
+    },
+    {
+      "i": 28,
+      "original_question": "What was the result of Argentina vs Colombia in the 2024 Copa America final?",
+      "original_claim": "Argentina won the 2024 Copa America final.",
+      "paraphrased_question": "How did the Argentina-Colombia matchup conclude in the 2024 Copa America championship game?",
+      "paraphrased_claim": "The 2024 Copa America tournament was won by Argentina in the final match.",
+      "label": 1
+    },
+    {
+      "i": 29,
+      "original_question": "What was the result of Argentina vs Colombia in the 2024 Copa America final?",
+      "original_claim": "Colombia won the 2024 Copa America final.",
+      "paraphrased_question": "How did the 2024 Copa America championship match between Argentina and Colombia conclude?",
+      "paraphrased_claim": "The 2024 Copa America tournament was won by Colombia in the final match.",
+      "label": 0
+    }
+  ],
+  "paraphrase_results": [
+    {
+      "i": 0,
+      "paraphrased_question": "Which candidate emerged victorious in the United States presidential election of 2024?",
+      "paraphrased_claim": "The 2024 presidential election in the United States was won by Donald Trump.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 1,
+      "paraphrased_question": "Which individual emerged victorious in the presidential contest held in the United States in 2024?",
+      "paraphrased_claim": "The 2024 presidential election in the United States was won by Kamala Harris.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 2,
+      "paraphrased_question": "Which individual assumed the office of Prime Minister of the United Kingdom during the month of July in the year 2024?",
+      "paraphrased_claim": "It was Keir Starmer who took on the role of UK Prime Minister as of July 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 3,
+      "paraphrased_question": "Which individual assumed the office of Prime Minister of the United Kingdom during the month of July in the year 2024?",
+      "paraphrased_claim": "It was Rishi Sunak who took on the role of Prime Minister of the UK in July 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 4,
+      "paraphrased_question": "In which city did the 2024 Summer Olympics take place?",
+      "paraphrased_claim": "Paris was the host city of the 2024 Summer Olympics.",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 5,
+      "paraphrased_question": "In which city did the 2024 Summer Olympics take place?",
+      "paraphrased_claim": "Los Angeles was the host city for the 2024 Summer Olympics.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 6,
+      "paraphrased_question": "Which individual took office as the President of the United States in the month of January in the year 2025?",
+      "paraphrased_claim": "It was Donald Trump who assumed the presidency of the United States during the inauguration that occurred in January 2025.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 7,
+      "paraphrased_question": "Which individual took office as the President of the United States in the month of January 2025?",
+      "paraphrased_claim": "It was Joe Biden who assumed the presidency of the United States in January 2025.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 8,
+      "paraphrased_question": "At what point in time did OpenAI initially unveil its o1 model?",
+      "paraphrased_claim": "The initial release of OpenAI's o1 model occurred during the month of September in the year 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 9,
+      "paraphrased_question": "What year did OpenAI initially launch its o1 model?",
+      "paraphrased_claim": "The initial release of OpenAI's o1 model occurred during the year 2023.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 10,
+      "paraphrased_question": "What was the name of the company that launched the Claude 3.5 Sonnet model in the year 2024?",
+      "paraphrased_claim": "It was Anthropic that introduced the Claude 3.5 Sonnet in 2024.",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 11,
+      "paraphrased_question": "What organization was responsible for launching the Claude 3.5 Sonnet product in the year 2024?",
+      "paraphrased_claim": "It was OpenAI that introduced Claude 3.5 Sonnet to the market in 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 12,
+      "paraphrased_question": "Which team emerged victorious in the National Basketball Association championship series for the year 2024?",
+      "paraphrased_claim": "The championship title for the 2024 NBA Finals was secured by the Boston Celtics.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 13,
+      "paraphrased_question": "Which team emerged victorious in the National Basketball Association championship series for the year 2024?",
+      "paraphrased_claim": "The championship title for the 2024 NBA Finals was secured by the Dallas Mavericks.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 14,
+      "paraphrased_question": "Which country emerged victorious in the 2024 UEFA European Championship tournament?",
+      "paraphrased_claim": "The winner of the 2024 UEFA European Championship title was Spain.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 15,
+      "paraphrased_question": "Which country emerged victorious in the 2024 UEFA European Championship tournament?",
+      "paraphrased_claim": "The 2024 UEFA European Championship title was secured by England.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 16,
+      "paraphrased_question": "In October 2024, what space vehicle utilized mechanical arms resembling chopsticks to capture a descending rocket booster?",
+      "paraphrased_claim": "The Mechazilla tower, owned by SpaceX, successfully retrieved a Super Heavy booster using its chopstick-like appendages in October 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 17,
+      "paraphrased_question": "In October 2024, what space vehicle utilized mechanical arms resembling chopsticks to capture a descending rocket stage?",
+      "paraphrased_claim": "The New Glenn spacecraft, developed by Blue Origin, successfully retrieved a returning rocket booster using its chopstick-like appendages in October 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 18,
+      "paraphrased_question": "What significant tropical cyclone made landfall on the western coast of Florida towards the end of September 2024?",
+      "paraphrased_claim": "The Gulf Coast of Florida was hit by Hurricane Helene during the latter part of September 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 19,
+      "paraphrased_question": "What significant tropical cyclone made landfall on the western coast of Florida towards the end of September 2024?",
+      "paraphrased_claim": "The storm known as Hurricane Katrina made a Gulf Coast landfall in Florida during the latter part of September 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 20,
+      "paraphrased_question": "What movie received the top honor for Best Picture at the 2024 Oscars?",
+      "paraphrased_claim": "The movie Oppenheimer took home the award for Best Picture at the 2024 Academy Awards.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 21,
+      "paraphrased_question": "What movie received the top honor in the Best Picture category at the 2024 Oscars?",
+      "paraphrased_claim": "The 2024 Academy Award for Best Picture was awarded to the film Barbie.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 22,
+      "paraphrased_question": "Which individual or individuals received the Nobel Prize in Physics for the year 2024?",
+      "paraphrased_claim": "The recipients of the 2024 Nobel Prize in Physics were John Hopfield and Geoffrey Hinton.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 23,
+      "paraphrased_question": "Which individual or individuals received the Nobel Prize in Physics for the year 2024?",
+      "paraphrased_claim": "Roger Penrose was the sole recipient of the 2024 Nobel Prize in Physics.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 24,
+      "paraphrased_question": "Who was the billionaire buyer of the social media platform previously known as Twitter?",
+      "paraphrased_claim": "In the year 2022, X, which was formerly named Twitter, was acquired by Elon Musk.",
+      "gold": "True",
+      "pred": "True",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 25,
+      "paraphrased_question": "Who was the billionaire buyer of the social media platform previously known as Twitter?",
+      "paraphrased_claim": "In the year 2022, the ownership of X, which was formerly named Twitter, was acquired by Mark Zuckerberg.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 26,
+      "paraphrased_question": "What research laboratory was responsible for the launch of DeepSeek-V3 towards the end of 2024?",
+      "paraphrased_claim": "It was DeepSeek that introduced its DeepSeek-V3 model in the latter part of 2024.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 27,
+      "paraphrased_question": "What research institution was responsible for launching the DeepSeek-V3 model towards the end of 2024?",
+      "paraphrased_claim": "The company Meta was the one that introduced DeepSeek-V3 to the public in late 2024.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "i": 28,
+      "paraphrased_question": "How did the Argentina-Colombia matchup conclude in the 2024 Copa America championship game?",
+      "paraphrased_claim": "The 2024 Copa America tournament was won by Argentina in the final match.",
+      "gold": "True",
+      "pred": "False",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "i": 29,
+      "paraphrased_question": "How did the 2024 Copa America championship match between Argentina and Colombia conclude?",
+      "paraphrased_claim": "The 2024 Copa America tournament was won by Colombia in the final match.",
+      "gold": "False",
+      "pred": "False",
+      "correct": true,
+      "skipped": false
+    }
+  ],
+  "summary": {
+    "control_original_accuracy": 0.6333333333333333,
+    "control_paraphrased_accuracy": 0.6,
+    "control_drop": 0.033333333333333326,
+    "tqa_original_accuracy": 0.9666666666666667,
+    "tqa_paraphrased_accuracy": 0.8333333333333334,
+    "tqa_drop": 0.1333333333333333,
+    "drop_difference_tqa_minus_control": 0.09999999999999998
+  }
+}
