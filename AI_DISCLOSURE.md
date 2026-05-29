@@ -62,8 +62,31 @@ will not be exact for this reason.
 
 ## Chat logs
 
-The full conversation in which I built the implementation with Claude:
-[LINK TO BE FILLED IN — paste shareable link to the relevant Claude conversation here]
+I used Claude Code (the CLI version), which does not provide a public
+"share this conversation" URL feature. The conversation transcript is
+stored locally on my machine as a JSONL log (~5 MB) and contains
+significant non-Praxis-related side discussion (other applications,
+other research projects) that I am not comfortable making public.
+
+**The Praxis-relevant portion of the conversation can be provided in
+full to the reviewers on request** — please email irving46764@gmail.com
+and I will export, redact unrelated material, and send.
+
+Concretely, the AI assistance with this sprint included:
+
+1. **Project structure and Python scaffolding** for `icm/` and `scripts/`
+   directories. Claude drafted code; I read, tested, and ran it.
+2. **API debugging** when Hyperbolic returned errors (HTTP 400 for
+   disallowed model, 500/503 for cold-start backend, missing logprobs
+   on chat-only endpoints).
+3. **Designing the memorization-test pipeline.** I described what I
+   wanted to test (memorization confound); Claude proposed the
+   paraphrase-comparison structure; I extended it with a control test
+   after questioning whether paraphrasing alone could explain the drop.
+4. **Critique sparring.** I wrote the critique in `critique.md` myself.
+   Claude played a hostile-reviewer role and flagged four specific
+   weaknesses in my draft, which I revised. Claude did not write or
+   substantively rewrite the critique text.
 
 ## Why I'm disclosing this clearly
 
