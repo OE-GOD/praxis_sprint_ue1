@@ -17,3 +17,5 @@ data/*.json
 # Editor
 .idea/
 .vscode/
+
+# Allow critique PDF (sprint submission)
